@@ -1,0 +1,79 @@
+:root{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-image: linear-gradient(180deg,#fff,#ccc);
+    height: 100vh;
+}
+
+.login-container {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    border-radius: 15px;
+    /*top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    box-sizing: border-box;
+    padding: 60px 30px;
+}
+
+
+.login-container .iconoLogin {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.login-container input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"], .login-container input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-container input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login-container input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.login-container a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: darkgrey;
+    display: block;
+    text-align: center;
+}
+
+.login-container a:hover {
+    color: #fff;
+}
