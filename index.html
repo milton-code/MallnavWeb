@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mallnav</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="src/css/normalize.css">
+        <link rel="stylesheet" href="src/css/login.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <script type="module" src="src/js/firebaseconnect.js" defer></script>
+        <script type="module" src="src/js/login.js" defer></script>
+    </head>
+    <body>
+        <div class="login-container">
+            <img src="src/assets/icono_login.png" class="iconoLogin" alt="Login image">
+            <form id="formulario-sesion">
+            <!--input correo-->
+            <input type="text" id="email" placeholder="Ingrese su e-mail">
+            <!--input password-->
+            <input type="password" id="password" placeholder="Ingrese su password">
+            <input type="submit" value="Iniciar sesión">
+            <a href="#">¿Olvidó su password?</a><br>
+            </form>
+        </div>
+    </body>
 </html>
